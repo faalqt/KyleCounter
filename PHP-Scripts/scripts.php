@@ -8,11 +8,11 @@
   }
 
   function buttonPress($stateID, $conn){
-      if(isset($_GET['add' . $stateID])){
-        updateDB('+', $stateID, $conn);
-      }else if(isset($_GET['sub'. $stateID])){
-        updateDB('-', $stateID, $conn);
-  }
+    if(isset($_GET['add' . $stateID])){
+      updateDB('+', $stateID, $conn);
+    }else if(isset($_GET['sub'. $stateID])){
+      updateDB('-', $stateID, $conn);
+    }
   }
 
   $choice = "stateSize DESC";
