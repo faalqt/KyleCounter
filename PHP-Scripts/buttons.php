@@ -1,30 +1,52 @@
 <?php
-  // if(isset($_GET['addAK'])){
-  //   updateDB('+', 'AK', $connection);
-  // }else if(isset($_GET['subAK'])){
-  //   updateDB('-', 'AK', $connection);
-  // }
-
-  // if(isset($_GET['addAL'])){
-  //   updateDB('+', 'AL', $connection);
-  // }else if(isset($_GET['subAL'])){
-  //   updateDB('-', 'AL', $connection);
-  // }
-  
-  // if(isset($_GET['addAR'])){
-  //   updateDB('+', 'AR', $connection);
-  // }else if(isset($_GET['subAR'])){
-  //   updateDB('-', 'AR', $connection);
-  // }
-
-  // function buttons($id, $dbConnection){
-  //   if(isset($_GET['add' . $id])){
-  //     updateDB('+', $id, $dbConnection);
-  //   }else if(isset($_GET['sub' . $id])){
-  //     updateDB('-', $id, $dbConnection);
-  //   }
-  // }
-
-
-
+    buttonPress('AK', $connection);
+    buttonPress('AL', $connection);
+    buttonPress('AR', $connection);
+    buttonPress('AZ', $connection);
+    buttonPress('CA', $connection);
+    buttonPress('CO', $connection);
+    buttonPress('CT', $connection);
+    buttonPress('DE', $connection);
+    buttonPress('FL', $connection);
+    buttonPress('GA', $connection);
+    buttonPress('HI', $connection);
+    buttonPress('IA', $connection);
+    buttonPress('ID', $connection);
+    buttonPress('IL', $connection);
+    buttonPress('IN', $connection);
+    buttonPress('KS', $connection);
+    buttonPress('KY', $connection);
+    buttonPress('LA', $connection);
+    buttonPress('MA', $connection);
+    buttonPress('MD', $connection);
+    buttonPress('ME', $connection);
+    buttonPress('MI', $connection);
+    buttonPress('MN', $connection);
+    buttonPress('MO', $connection);
+    buttonPress('MS', $connection);
+    buttonPress('MT', $connection);
+    buttonPress('NC', $connection);
+    buttonPress('ND', $connection);
+    buttonPress('NE', $connection);
+    buttonPress('NH', $connection);
+    buttonPress('NJ', $connection);
+    buttonPress('NM', $connection);
+    buttonPress('NV', $connection);
+    buttonPress('NY', $connection);
+    buttonPress('OH', $connection);
+    buttonPress('OK', $connection);
+    buttonPress('OR', $connection);
+    buttonPress('PA', $connection);
+    buttonPress('RI', $connection);
+    buttonPress('SC', $connection);
+    buttonPress('SD', $connection);
+    buttonPress('TN', $connection);
+    buttonPress('TX', $connection);
+    buttonPress('UT', $connection);
+    buttonPress('VA', $connection);
+    buttonPress('VT', $connection);
+    buttonPress('WA', $connection);
+    buttonPress('WI', $connection);
+    buttonPress('WV', $connection);
+    buttonPress('WY', $connection);
  ?>
