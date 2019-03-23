@@ -29,7 +29,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <ul class="navbar-nav mr-auto">
-                  <a class="nav-link" href="https://github.com/Faalqt/KyleCounter">GitHub</a>
+                  <a class="nav-link" href="https://github.com/imjstn/KyleCounter">GitHub</a>
               </ul>
               
                 <?php
